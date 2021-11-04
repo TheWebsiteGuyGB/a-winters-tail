@@ -1,8 +1,10 @@
-# Tailwind Skelton Template for Winter CMS
-This is a skelton starter template for Winter CMS
+# Tailwind Skeleton Template for Winter CMS
+This is a skeleton starter template for Winter CMS
 
-Preconfigured with TailwindCSS + Plugins (Typography, Forms) + PostCSS
+Preconfigured with TailwindCSS + Plugins (Typography, Forms) + JIT Enabled + PostCSS
 
-**JIT enabled**
+## How to build
+
+`npm run build-css`
 
 
