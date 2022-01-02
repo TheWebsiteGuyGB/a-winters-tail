@@ -1,10 +1,14 @@
 # Tailwind Skeleton Template for Winter CMS
 This is a bare bones skeleton starter template for Winter CMS
 
-Preconfigured with TailwindCSS + Plugins (Typography, Forms) + JIT Enabled + PostCSS
+Preconfigured with TailwindCSS v3 + Plugins (Typography) + PostCSS + AlpineJS
 
-## How to build
+## Quick setup
 
-`npm run build-css`
+### Install dependancies
+`npm install`
+
+### Watch for live Tailwind changes
+`npm run watch`
 
 

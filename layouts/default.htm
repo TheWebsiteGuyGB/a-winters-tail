@@ -8,13 +8,17 @@ description = "Default Layout"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ [
         '@framework.extras',
-        'assets/style/theme.css'
+        'assets/style/dist/theme.css'
     ]|theme }}" rel="stylesheet">
     {% styles %}
 
     <title>{{ this.page.title }}</title>
 </head>
 <body>
+
+<!-- Navigation --> 
+{% partial 'site/navigation' %}
+    
     
 {% page %}
 
