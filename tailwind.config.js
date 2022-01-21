@@ -1,6 +1,9 @@
 module.exports = {
-  content: ['./content/**/*.htm', './pages/**/*.htm', './partials/**/*.htm', './layouts/*.htm'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+  './content/**/*.htm', 
+  './pages/**/*.htm', 
+  './partials/**/*.htm', 
+  './layouts/*.htm'],
   theme: {
     extend: {},
   },
@@ -9,5 +12,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 }
