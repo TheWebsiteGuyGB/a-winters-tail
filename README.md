@@ -4,7 +4,7 @@ This is a bare bones skeleton starter template for Winter CMS
 
 Preconfigured with TailwindCSS v3.0.16 + Plugins (Typography, Forms) + AlpineJS
 
-## Built for Linux
+## Built for Linux servers
 
 This setup is based on Tailwind CLI working on a Linux x64 server. This should work on most LAMP Stack environments.
 
