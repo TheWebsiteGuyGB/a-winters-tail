@@ -2,7 +2,7 @@
 
 This is a bare bones skeleton starter template for Winter CMS
 
-Preconfigured with TailwindCSS v3 + Plugins (Typography, Forms) + AlpineJS
+Preconfigured with TailwindCSS v3.0.16 + Plugins (Typography, Forms) + AlpineJS
 
 ## Quick setup
 
@@ -18,7 +18,7 @@ The Tailwind CLI is also available for Windows and Mac environments. Please see 
 
 Open a terminal in the root directory of the theme
 
-<mark>Important! Make sure the tailwind file has permissions to execute</mark>
+<mark>Important! Make sure the tailwindcss file has permissions to execute</mark>
 
 `chmod +x tailwindcss`
 
