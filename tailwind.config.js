@@ -1,9 +1,11 @@
 module.exports = {
   content: [
-  './content/**/*.htm', 
-  './pages/**/*.htm', 
-  './partials/**/*.htm', 
-  './layouts/*.htm'],
+    './content/**/*.htm',
+    './partials/**/*.htm',
+    './pages/**/*.htm',
+    './layouts/*.htm', 
+    './src/**/*.js',
+  ],
   theme: {
     extend: {},
   },
