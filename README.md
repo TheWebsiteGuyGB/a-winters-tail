@@ -28,10 +28,14 @@ Open a terminal in the root directory of the theme
 
 To watch for changes on the fly during development run the following command.
 
-`./tailwindcss -i ./assets/style/src/theme.css -o ./assets/style/dist/theme.css --watch`
+```
+./tailwindcss -i ./assets/style/src/theme.css -o ./assets/style/dist/theme.css --watch
+```
 
 ## Production Environment
 
 To generate a minified css file for production
 
-`./tailwindcss build -i ./assets/style/src/theme.css -o ./assets/style/dist/theme.css --minify`
+```
+./tailwindcss build -i ./assets/style/src/theme.css -o ./assets/style/dist/theme.css --minify
+```

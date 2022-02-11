@@ -11,16 +11,22 @@ description = "Default Layout"
         'assets/style/dist/theme.css'
     ]|theme }}" rel="stylesheet">
     {% styles %}
-
+    
     <title>{{ this.page.title }}</title>
 </head>
 <body>
 
 <!-- Navigation --> 
-{% partial 'html/navigation' %}
+{% partial 'html/nav' %}
     
-    
-{% page %}
+<!-- Main Content -->
+<main>
+    {% page %}
+</main>
+
+
+<!-- Footer -->
+{% partial 'html/footer' %}
 
 <!-- Scripts -->
 {% partial 'scripts/global' %}
